@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Ashwini Kumar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+        }
+        header {
+            background: linear-gradient(120deg, #0073e6, #00aaff);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .profilepic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: -75px;
+            border: 5px solid white;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .skills ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            flex: 1 1 30%;
+            padding: 10px;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ashwini Kumar</h1>
+        <p>Designing Intuitive Experiences That Inspire</p>
+        <img src="assets/images/AshwinProPic.jpg" alt="Ashwini Kumar" class="profilepic">
+    </header>
+    <div class="container">
+        <section>
+            <h2>About Me</h2>
+            <p>
+                As a seasoned UX design leader with over 17 years of experience, I specialize in creating intuitive and engaging experiences for both B2C and B2B platforms. My passion lies in solving complex challenges with innovative solutions that leave a lasting impact.
+            </p>
+        </section>
+        <section class="skills">
+            <h2>Skill Set</h2>
+            <ul>
+                <li>Adobe Creative Suite - 18 years</li>
+                <li>HTML5 & CSS3 - 15 years</li>
+                <li>Figma - 5 years</li>
+                <li>Angular & React - 10+ years</li>
+                <li>Jira & Confluence - 5+ years</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Testimonials</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <p>"Ashwini’s expertise and dedication helped our team achieve exceptional results."</p>
+                        <p>- John Doe, CEO at XYZ Corp</p>
+                    </div>
+                    <div class="carousel-item">
+                        <p>"A true professional! Ashwini delivered beyond our expectations."</p>
+                        <p>- Jane Smith, Marketing Director</p>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>Contact: ashwinikumar@example.com | LinkedIn: linkedin.com/in/ashwinikumar</p>
+    </footer>
+</body>
+</html>

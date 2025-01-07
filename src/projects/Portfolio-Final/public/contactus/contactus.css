@@ -1,0 +1,73 @@
+.contact-container{margin-top: 75px; float: left; width:100%;}
+.gray-colour {background-color: #f2f2f2;height: 130px;position: absolute;top: -30px;right: 0;
+left: 0;}
+.contact-members {position: relative;margin-top: 50px;float: left;width: 100%; margin-bottom: 4.5%;}
+.contact-pic {height: 180px;width: 140px;background: #7e7e7e; float: left;}
+.contact-pic img {height: 180px;width: 140px;}
+.contact-box {float: left;margin-bottom: 15px;width: 100%;}
+.contact-details {float: left;padding-left: 10px;margin-top: 17%;}
+.contact-phone {float: left;padding-left: 30px;margin-top: 17%;}
+.contact-phone h5 {color: #000000;font-size: 15px;}
+.contact-details h5 {color: #000000;font-size: 15px;margin-bottom: 5px;}
+.contact-details h4 {color: #EA7400;font-size: 15px;}
+
+/* Media  Quiries*/
+@media (max-width:850px){
+h1 {font-size: 25px;}
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+.gray-colour {display: none;}
+.contact-box {text-align: center;padding: 15px;border: 1px solid #f2f2f2;}
+.contact-pic{float: none;text-align: center;display: inline-block;}
+.contact-details{float: none;padding-left: 0;margin-top: 0;}
+.contact-phone {float: none;padding-left: 0; margin-top: 0;}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.gray-colour {display: none;}
+.contact-box {text-align: center;padding: 15px;border: 1px solid #f2f2f2;}
+.contact-pic{float: none;text-align: center;display: inline-block;}
+.contact-details{float: none;padding-left: 0;margin-top: 0;}
+.contact-phone {float: none;padding-left: 0; margin-top: 0;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+.contact-details {margin-top: 13.5%;}
+.contact-phone {margin-top: 13.5%;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* iPad Pro (portrait) ----------- */
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1366px)
+and (orientation : portrait) {
+.contact-details {margin-top: 13.5%;}
+.contact-phone {margin-top: 13.5%;}
+footer{position: fixed; left: 0;bottom: 0;}
+}
+
+/* iPad Pro (landscape) ----------- */
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1366px)
+and (orientation : landscape) {
+.contact-members{ margin-bottom: 10.5%;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

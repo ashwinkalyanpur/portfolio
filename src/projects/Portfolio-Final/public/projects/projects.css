@@ -1,0 +1,98 @@
+.projects-container{margin-top: 75px; float: left; width:100%;}
+.projects-container .nav-tabs li {padding: 0;margin: 0 0.5rem;}
+.projects-container .nav-tabs li a {padding:0.5rem 0!important}
+.projects-container .nav-tabs li a img {width: 30px;height: 30px;}
+.projects-container .nav-tabs li a {border: 0 !important;border-bottom: 2px solid transparent !important;}
+.projects-container .nav-tabs li a.active, .projects-container .nav-tabs li a:hover,.projects-container .nav-tabs li a:focus {background: none;} 
+.projects-container .nav-tabs li.active {border-bottom: 2px solid #FFB81C !important; background: none;}
+.project-tabs {position: fixed;top: 75px;z-index: 1010 !important;background: #fff;border-bottom:none; right: 0; left: 0; text-align: center;}
+.project-tabs ul{padding: 9px 0!important;border-bottom: 0 !important; display: inline-block;}
+.projects-container .tab-content { margin-top:75px;}
+.projects-container .tab-content #watch {margin-bottom:11.5%;}
+.projects-container .tab-content #award {margin-bottom:11.5%;}
+
+.card {background: #f2f2f2 !important;height: auto !important;margin-bottom: 25px !important;border: 0 !important;border-radius: 0 !important;padding: 0;float: left;width: 100%}
+.card-body {padding: 0;float: left;width: 100%;position: relative;}
+.card-body img {height: auto;width: 100%; padding: 25px;}
+.col-12.col-sm-6:nth-child(even) .card {margin-left: 5px;}
+.col-12.col-sm-6:nth-child(odd) .card {margin-right: 5px;}
+.box_hover {display: none;width: 100%;height: 100%;position: absolute;top: 0;right: 0;
+background: rgba(0, 0, 0, 0.8);left: 0;padding: 30px;}
+.card-body:hover .box_hover {display: block;}
+.card-text {color: #FFFFFF;padding-top: 15px;}
+.card-title {color: #FFFFFF;font-family: 'Omnes_ATTW02Light';font-size: 25px;border-bottom: 1px solid #D8D8D8;
+padding-bottom: 10px;}
+.media {padding-top: 15px;}
+.media img {width: 45px;height: auto; float: left; margin-right: 15px;padding: 0;}
+.media-body, .media-body h5 {color: #fff;}
+
+/* Media */
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+.box_hover {padding: 10px;}
+.card-title {font-size: 16px;padding-bottom: 5px;margin-bottom: 0px; margin-top: 0px;}
+.card-text {padding-top: 5px; font-size: 13px;line-height: 20px;}
+.media {padding-top: 5px;margin-top: 5px;}
+.media img {width: 30px;height: auto;}
+.media-body { font-size: 13px;line-height: 20px;}
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+.box_hover {padding: 10px;}
+.card-title {font-size: 16px;padding-bottom: 5px;margin-bottom: 0px; margin-top: 0px;}
+.card-text {padding-top: 5px; font-size: 13px;line-height: 20px;}
+.media {padding-top: 5px;margin-top: 5px;}
+.media img {width: 30px;height: auto;}
+.media-body { font-size: 13px;line-height: 20px;}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+.box_hover {padding: 10px;}
+.card-title {font-size: 20px;padding-bottom: 5px;margin-bottom: 0px; margin-top: 0px;}
+.card-text {padding-top: 5px;}
+.media {padding-top: 5px;margin-top: 5px;}
+.media img {width: 30px;height: auto;}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait) {
+.projects-container .tab-content #watch {margin-bottom: 37%;}
+.projects-container .tab-content #award {margin-bottom: 37%;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+    .projects-container .tab-content #watch {margin-bottom: 0% !important;}
+    .projects-container .tab-content #award {margin-bottom: 0% !important;}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1366px)
+and (orientation : portrait) {
+.projects-container .tab-content #watch {margin-bottom: 61%;}
+.projects-container .tab-content #award {margin-bottom: 61%;}
+}
+
+/* iPad Pro (landscape) ----------- */
+@media only screen
+and (min-width : 1024px)
+and (max-width : 1366px)
+and (orientation : landscape) {
+.projects-container .tab-content #watch {margin-bottom: 16%;}
+.projects-container .tab-content #award {margin-bottom: 16%;}
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

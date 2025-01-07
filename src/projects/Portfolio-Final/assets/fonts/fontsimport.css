@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Omnes_ATTW02';
+    src: url('Omnes_ATTW02.woff') format('woff'), /* Pretty Modern Browsers */
+         url('Omnes_ATTW0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Omnes_ATTW02.otf"') format('otf'), /* Super Modern Browsers */
+         url('GraublauWeb.svg#grablau"') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Omnes_ATTW02';
+    src: local("Omnes_ATTW02"),
+         url('Omnes_ATTW02.woff') format('woff'), /* Pretty Modern Browsers */
+         url('Omnes_ATTW0.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('Omnes_ATTW02.otf"') format('otf'), /* Super Modern Browsers */
+         url('GraublauWeb.svg#grablau"') format('svg'); /* Legacy iOS */
+}

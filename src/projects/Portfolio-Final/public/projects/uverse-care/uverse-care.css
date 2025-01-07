@@ -1,0 +1,20 @@
+.inner-slider {margin-top: 90px;background: #f2f2f2; overflow: hidden;}
+.inner-slider img {width: 100%;height: auto;padding: 46px 0;}
+.inner-bullets { margin: 0; padding-left: 15px; }
+.awards_box {padding-top:55px;}
+.awards_box .media img { width:58px; height: 78px;}
+.awards_box .media-body {color: #959595;}
+.awards_box .media-body h5 {color: #EA7400;font-size: 25px}
+.youtube-box{ padding: 10px 0; background: #000000; margin-top: 55px; margin-bottom: 55px; overflow: hidden;}
+.img-fluid { margin-bottom: 55px;}
+.img-fluid.marB55{ margin-bottom: 0;}
+.img-fluid {max-width: 100%;height: auto;}
+.padB120 {padding-bottom: 120px;}
+
+@media (max-width: 850px){
+h1 {font-size: 25px;}
+}
+
+@media (max-width:767px){
+.padB120 {padding-bottom: 60px;}
+}    

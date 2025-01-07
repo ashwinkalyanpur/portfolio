@@ -1,0 +1,17 @@
+.inner-slider {margin-top: 90px;background: #f2f2f2; overflow: hidden;}
+.inner-slider img {width: 100%;height: auto;padding: 46px 0;}
+.inner-bullets { margin: 0; padding-left: 15px; }
+.awards_box {padding-top:55px;}
+.awards_box .media img { width:58px; height: 78px;}
+.awards_box .media-body {color: #959595;}
+.awards_box .media-body h5 {color: #EA7400;font-size: 25px}
+.youtube-box{ padding: 10px 0; background: #000000; margin-top: 55px; margin-bottom: 55px; overflow: hidden;}
+.youtube-box .embed-responsive {width: 67.6%;margin: 0 auto;}
+.embed-responsive-16by9 {padding-bottom: 38% !important;}
+.img-fluid { margin-bottom: 55px;}
+.img-fluid.marB55{ margin-bottom: 0;}
+.img-fluid {max-width: 100%;height: auto;}
+
+@media (max-width: 850px){
+h1 {font-size: 25px;}
+}
