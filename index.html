@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
     <title>Ashwini Kumar Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/style.css">
@@ -15,7 +17,8 @@
     <div class="container-fluied">
         <header class="">
             <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-body-tertiary rounded ">
-                <a class="navbar-brand" href="#">Ashwini Kumar</a>
+                <img src="assets/images/ashwin_logo.png" class="logo" />
+                <a class="navbar-brand" href="#">shwini Kumar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -240,16 +243,14 @@
         </div>
     </div>
     <footer>
-        <p>Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar</p>
+        <!-- <p>Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar <span class="tex">The number of visitors is : <span id="cntr">0</span></span></p> -->
+        <p >Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar | <span class="text-end">The number of visitors is : <span id="cntr">0</span></span></p>
     </footer>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="shadow">Top</button>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Get the button
         let mybutton = document.getElementById("myBtn");
-
-        // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function () { scrollFunction() };
 
         function scrollFunction() {
@@ -260,12 +261,21 @@
             }
         }
 
-        // When the user clicks on the button, scroll to the top of the document
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+        /* Hit counter script starts here */
+        function counter_fn() {
+          var counter = document.getElementById("cntr");
+          var count = 0;
+          count = parseInt(counter.innerHTML);
+          count = count + 1;
+          counter.innerHTML = count;
+        }
+        window.onload = counter_fn;
     </script>
+    
 </body>
 
 </html>
