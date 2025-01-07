@@ -244,7 +244,7 @@
     </div>
     <footer>
         <!-- <p>Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar <span class="tex">The number of visitors is : <span id="cntr">0</span></span></p> -->
-        <p >Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar | <span class="text-end">The number of visitors is : <span id="cntr">0</span></span></p>
+        <p >Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar |  <span class="visitor">Visitor  Counter <span id="visitorCount" class="mr-2"><strong> 0</strong></span><span> Thanks you for visiting!</span></span></span></p>
     </footer>
     <button onclick="topFunction()" id="myBtn" title="Go to top" class="shadow">Top</button>
 
@@ -265,15 +265,22 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-        /* Hit counter script starts here */
-        function counter_fn() {
-          var counter = document.getElementById("cntr");
-          var count = 0;
-          count = parseInt(counter.innerHTML);
-          count = count + 1;
-          counter.innerHTML = count;
-        }
-        window.onload = counter_fn;
+
+        /* Visitor Counter  Script Start*/
+        document.addEventListener('DOMContentLoaded', () => {
+            const counterElement = document.getElementById('visitorCount');
+            let count = localStorage.getItem('visitorCount');
+
+            if (count === null) {
+                count = 0;
+            }
+
+            count = parseInt(count) + 1;
+            localStorage.setItem('visitorCount', count);
+
+            counterElement.textContent = count;
+        });
+        
     </script>
     
 </body>

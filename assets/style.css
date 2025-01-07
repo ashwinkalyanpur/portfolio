@@ -471,6 +471,15 @@ footer p{
 /*scroll to top end*/
 
 
+/* Visitor hit counter CSS Start */
+#visitorCount{
+  font-weight: bold;
+}
+
+p {
+  color: #666666;
+}
+
 @media (max-width: 600px) {
     .experience-item {
         flex-direction: column;
