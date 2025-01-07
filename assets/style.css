@@ -470,7 +470,13 @@ footer p{
   }
 /*scroll to top end*/
 
-
+.footer test{
+    background-color: #48ddb4;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
 
 @media (max-width: 600px) {
     .experience-item {
