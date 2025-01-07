@@ -44,7 +44,7 @@ h1 {
 }
 .headerBG {
     clip-path: polygon(60.1% 0.5%, 100% 0%, 100% 100%, 46.5% 100%);
-    background-color:RGBA(  72,221,180,1);
+    background-color:rgba(155,171,227,1);
     height: 550px;
     position: absolute;
     width: 100%;
