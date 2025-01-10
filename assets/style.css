@@ -32,6 +32,7 @@ header {
   position: absolute;
   height: 90px;
   width: 56px;
+  top:10px
 }
 .navbar{
     z-index: 999;
@@ -480,6 +481,12 @@ p {
   color: #666666;
 }
 
+@media (max-width: 900px) {
+  header{
+    background-size: cover;
+  }
+}
+
 @media (max-width: 600px) {
     .experience-item {
         flex-direction: column;
@@ -488,4 +495,39 @@ p {
     .company-logo {
         margin-bottom: 10px;
     }
+    
+}
+
+@media (max-width: 600px) {
+  .carousel-container{
+    top: 445px;
+    width: 90%;
+    height: 375px;
+    position: absolute;
+    left: 0;
+    right: 0;
+  }
+  .profilepic{
+    width: 200px !important;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: 270px;
+  }
+  header{
+    background-size: cover;
+    height: 800px;
+  }
+  .text-center.mt-3{
+    margin-top: 75px !important;
+  }
+  .logo{
+    height: 60px;
+    width: 49px;
+    top: 10px;
+  }
+  .navbar-brand{
+    font-size: 2rem !important;
+    padding-left: 3.5rem;
+  }
 }
