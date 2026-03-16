@@ -4,338 +4,423 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-
-    <title>Ashwini Kumar Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/style.css">
+    <title>Ashwini Kumar – Turning Good Products into Obsessions</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body>
-    <div class="container-fluied">
-        <header class="">
-            <nav class="navbar navbar-expand-lg navbar-light shadow p-3 mb-5 bg-body-tertiary rounded ">
-                <img src="assets/images/ashwin_logo.png" class="logo" />
-                <a class="navbar-brand" href="index.html">shwini Kumar</a>
-                <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button> -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="src/experience.html">Professional Summary</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="src/projects.html">Portfolio Highlights </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="src/contact.html">Contact Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="src/Creative&Engaging.html">Creative & Engaging</a>
-                        </li>
-                    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="images/ashwin_logo.png" alt="Ashwini Kumar Logo" class="logo me-2">
+                <div class="ps-5">shwini Kumar</div>
+            </a>
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="leadership.html">Leadership & Collaboration</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="experience.html">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="case-studies.html">Case Studies</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="design-process.html">Design Process</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="design-craft.html">Design Craft</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="social-icons">
+
+                <a href="https://www.linkedin.com/in/ashwinikumar" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/ashwinikumar" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+
+        <!-- Banner Image -->
+        <img src="images/Home_Banner.png" class="hero-bg" alt="Banner">
+
+        <!-- Overlay -->
+        <div class="hero-overlay"></div>
+
+        <div class="hero-container">
+
+            <!-- LEFT TEXT AREA -->
+            <div class="hero-text">
+
+                <div class="hero-slide slide1">
+                    <h1>Designing Enterprise Experiences That Scale</h1>
+                    <p>
+                        Product Design Leader with 17+ years of experience building enterprise SaaS platforms,
+                        telecom solutions and digital ecosystems.
+                    </p>
                 </div>
-            </nav>
-            <img src="assets/images/ashwin_logo1.png"
-                alt="Ashwini Kumar" class="profilepic imgborder">
+
+                <div class="hero-slide slide2">
+                    <h1>Transforming Complex Systems Into Intuitive Products</h1>
+                    <p>
+                        I help organizations design scalable platforms by aligning
+                        user needs, business goals and technology.
+                    </p>
+                </div>
+
+                <div class="hero-slide slide3">
+                    <h1>Leading UX Innovation Across Global Platforms</h1>
+                    <p>
+                        Collaborating with teams across Japan, Singapore, Dubai,
+                        India and the United States to deliver impactful experiences.
+                    </p>
+                </div>
+
+            </div>
 
 
-            <div id="profileCarousel" class="carousel slide carousel-container" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <!-- Slide 1 -->
-                    <div class="carousel-item active">
-                        <h2>17+ Years of Design Excellence</h2>
-                        <p>
-                            With over 17 years of experience in the field of UX design, I bring a wealth of expertise in
-                            crafting user-centric designs that deliver exceptional results. Having led teams of up to 38
-                            talented individuals, I thrive in collaborative environments, where creativity and
-                            innovation drive success.
-                        </p>
-                    </div>
-                    <!-- Slide 2 -->
-                    <div class="carousel-item">
-                        <h2>Passion. Precision. People-Centric Solutions.</h2>
-                        <p>
-                            I’m passionate about creating intuitive and impactful designs that prioritize the user. As a
-                            quick thinker, I excel at solving complex challenges, balancing business goals with user
-                            needs to deliver innovative solutions.
-                        </p>
-                    </div>
-                    <!-- Slide 3 -->
-                    <div class="carousel-item">
-                        <h2>Inspiring Teams to Build Great Products</h2>
-                        <p>
-                            As a dedicated leader and team player, I have guided cross-functional teams to success. By
-                            fostering creativity and collaboration, I ensure alignment with stakeholders and seamless
-                            execution from concept to delivery.
-                        </p>
-                    </div>
-                    <!-- Slide 4 -->
-                    <div class="carousel-item">
-                        <h2>Designing for People, Not Just Interfaces</h2>
-                        <p>
-                            My design philosophy centers on empathy and user-centric principles. I believe in delivering
-                            value through designs that resonate with users and enhance their experiences, no matter how
-                            complex the problem.
-                        </p>
-                    </div>
-                    <!-- Slide 5 -->
-                    <div class="carousel-item">
-                        <h2>Let’s Bring Your Vision to Life</h2>
-                        <p>
-                            Looking for a passionate designer who can turn ideas into exceptional user experiences?
-                            Let’s work together to create designs that inspire and deliver results.
-                        </p>
+            <!-- RIGHT PROFILE AREA -->
+            <div class="hero-profile">
+
+                <img src="images/ashwin_logo3.png" alt="Your Photo" class="profile-pic">
+
+            </div>
+
+        </div>
+
+    </header>
+    <section class="container mt-5">
+
+        <h2>Professional Summary</h2>
+
+        <p>
+            Product Design Leader with over 17 years of experience delivering enterprise SaaS, telecom platforms, and
+            infrastructure applications.
+        </p>
+
+        <p>
+            I specialize in building scalable UX solutions that balance user needs, business objectives, and technical
+            feasibility.
+        </p>
+
+        <p>
+            Experienced in mentoring designers, driving UX strategy, and collaborating with global teams across Japan,
+            Singapore, Dubai, India and the United States.
+        </p>
+
+
+    </section>
+
+
+    <section class="container skill-section">
+
+        <h2 class="text-center mb-5">Core Expertise</h2>
+
+        <div class="row">
+
+            <div class="col-md-4 skill-card">
+
+                <h4>UX Strategy & Product Thinking</h4>
+
+                <ul>
+                    <li>UX Strategy</li>
+                    <li>Design Thinking</li>
+                    <li>User Research</li>
+                    <li>Information Architecture</li>
+                    <li>User Journey Mapping</li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-4 skill-card">
+
+                <h4>Interaction & Experience Design</h4>
+
+                <ul>
+                    <li>Wireframing</li>
+                    <li>Prototyping</li>
+                    <li>Interaction Design</li>
+                    <li>Usability Testing</li>
+                    <li>Design Systems</li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-4 skill-card">
+
+                <h4>Product Collaboration</h4>
+
+                <ul>
+                    <li>Agile Product Development</li>
+                    <li>Cross-Functional Collaboration</li>
+                    <li>Engineering Collaboration</li>
+                    <li>Technical UX Implementation</li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-6 skill-card">
+
+                <h4>Design Leadership</h4>
+
+                <ul>
+                    <li>Team Mentorship</li>
+                    <li>Design Reviews</li>
+                    <li>Stakeholder Presentations</li>
+                    <li>Global Team Collaboration</li>
+                    <li>Design Standards & Guidelines</li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-6 skill-card">
+
+                <h4>Tools & Platforms</h4>
+
+                <ul>
+                    <li>Figma</li>
+                    <li>Adobe XD</li>
+                    <li>Photoshop</li>
+                    <li>Angular UX Implementation</li>
+                    <li>React UX Implementation</li>
+                    <li>Grafana & Kibana Dashboards</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="py-5 bg-light">
+        <div class="container">
+
+            <h2 class="text-center mb-5">Featured Case Studies</h2>
+
+            <div class="row">
+
+
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+
+                        <img src="images/rakuten-logo.png" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Rakuten Carrier Platform
+                            </h5>
+
+                            <p class="card-text">
+                                Telecom carrier onboarding and
+                                SMS routing management system.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                View Case Study
+                            </a>
+
+                        </div>
                     </div>
                 </div>
-                <!-- Carousel Controls -->
-                <button class="carousel-control-prev" type="button" data-bs-target="#profileCarousel"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#profileCarousel"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+
+                        <img src="images/experis_it_pvt_ltd__logo.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                Dell Infrastructure Monitoring Platform
+                            </h5>
+
+                            <p class="card-text">
+                                Enterprise dashboard enabling engineers
+                                to monitor network devices and system connectivity.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                View Case Study
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow">
+
+                        <img src="images/externetworks_logo.jpg" class="card-img-top">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+                                AT&T Technician Workflow
+                            </h5>
+
+                            <p class="card-text">
+                                Device diagnostics and
+                                network service tracking application.
+                            </p>
+
+                            <a href="#" class="btn btn-primary">
+                                View Case Study
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container mt-5">
+
+        <h2>Leadership Impact</h2>
+
+        <ul>
+
+            <li>Led design collaboration across global teams including Japan, Singapore, Dubai, India, and the United
+                States</li>
+
+            <li>Mentored design teams ranging from 5 to 30 designers</li>
+
+            <li>Conducted weekly design presentations with product managers and stakeholders</li>
+
+            <li>Established UX design standards and product design workflows</li>
+
+            <li>Delivered enterprise product experiences for telecom and infrastructure platforms</li>
+
+        </ul>
+
+    </section>
+
+
+
+
+    <footer class="portfolio-footer">
+
+        <div class="footer-container">
+
+            <!-- About Section -->
+
+            <div class="footer-column">
+
+                <h3>Ashwini Kumar</h3>
+
+                <p>
+                    Senior UX / Product Designer with 17+ years of experience designing
+                    enterprise platforms, telecom applications, and infrastructure systems.
+                    Focused on creating scalable user-centered solutions through research,
+                    design thinking, and collaboration.
+                </p>
+
             </div>
 
-            <div class="arrow-container">
-                <div class="arrow">&#x2193;</div> <!-- Down Arrow -->
-                <a href="#target-section" class="link">Explore More</a>
+
+            <!-- Navigation -->
+
+            <div class="footer-column">
+
+                <h4>Portfolio</h4>
+
+                <ul>
+
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="design-process.html">Design Process</a></li>
+
+                    <li><a href="design-craft.html">Design Craft</a></li>
+
+                    <li><a href="case-studies.html">Case Studies</a></li>
+
+                    <li><a href="leadership.html">Leadership</a></li>
+
+                    <li><a href="about.html">About Me</a></li>
+
+                </ul>
+
             </div>
 
-            <div class="headerBG">
+
+            <!-- Contact -->
+
+            <div class="footer-column">
+
+                <h4>Connect</h4>
+
+                <ul>
+
+                    <li>Email: ashwinkalyanpur@hotmal.com</li>
+
+                    <li><a href="https://www.linkedin.com/in/ashwinikumar">LinkedIn</a></li>
+
+                    <li><a href="document/ashwini_ux_portfolio.pdf" target="_blank">Download Portfolio PDF</a></li>
+
+                    <li><a href="document/Ashwini_Kumar_Resume.pdf" target="_blank">Download Resume</a></li>
+
+                </ul>
 
             </div>
-        </header>
-
-        <div class="container" id="target-section">
-            <h1>About Me</h1>
-            <p>
-                With over 20 years of experience orchestrating the symphony of art, design, and creativity, I’ve
-                mastered the art of bringing ideas to life—effortlessly blending vision, strategy, and execution. My
-                career is a testament to the power of creative leadership, where innovation meets precision, and where
-                every pixel, line, and idea serves a purpose.
-            </p>
-            <p>
-                I’m not just about managing design teams; I build creative ecosystems. I thrive on mentoring designers,
-                igniting their passion, and aligning their energy toward a shared vision. As a mentor, I guide team
-                members through training, career development, and performance appraisals, fostering their growth within
-                the organization. By balancing management and team responsibilities, I lead by example and cultivate a
-                culture of creative excellence and client satisfaction.
-            </p>
-            <p>
-                Having worked with international teams across cultures and ethnicities, I take pride in delivering
-                designs that respect local nuances while meeting global standards—ensuring that every project resonates
-                deeply with its audience.
-            </p>
-            <p>
-                What sets me apart is my ability to seamlessly navigate both the creative and commercial landscapes. I
-                understand that design isn’t just about aesthetics; it’s about solving problems, creating value, and
-                meeting objectives. And while the “what” is undeniably important, I firmly believe that the “when” is
-                equally crucial—timely delivery is my promise.
-            </p>
-
-            <strong>My Superpowers</strong>
-            <ul style="margin-left: 2em;">
-                <li>Visionary Design Expertise: Master storyteller with designs—skilled in Photoshop, Figma, Adobe XD,
-                    and cutting-edge tools to bring bold ideas to life.</li>
-                <li>UI/UX Implementation: I bridge the gap between vision and reality, implementing seamless UX designs
-                    using Angular, React, and modern frameworks.</li>
-                <li>
-                    Design Philosophy: Firm believer in user-centered design (UCD) principles—my goal is to balance
-                    innovation with usability, creating designs that resonate deeply with users.</li>
-                <li>
-                    Design Thinking & Execution: Turning complex challenges into elegant, user-first solutions.
-                </li>
-                <li>
-                    Creative Strategy & Vision: Painting the bigger picture and bringing it to life.
-                </li>
-                <li>
-                    Mentorship & Leadership: Guiding teams through growth, fostering skills, and inspiring excellence.
-                </li>
-                <li>
-                    Digital Mastery: Crafting engaging experiences in a constantly evolving landscape.
-                </li>
-                <li>
-                    Operational Excellence: Balancing creativity with efficiency for flawless delivery.
-                </li>
-                <li>
-                    Cultural Empathy: Designing with a deep respect for diversity and audience sentiment.
-                </li>
-            </ul>
-            <strong>Beyond the Design Board</strong>
-            <ul style="margin-left: 2em;">
-                <li>Dashboard Maestro: Creator and monitor of insightful dashboards using Grafana and Kibana, turning
-                    data into actionable insights.</li>
-                <li>Content Craftsman: Author of user guides and design standards, ensuring clarity, consistency, and
-                    elegance across every product touchpoint.</li>
-                <li>Prototype Pioneer: Rapid prototyper who brings concepts to life in record time with tools like Figma
-                    and Adobe XD.</li>
-                <li>
-                    I’m endlessly curious about the interplay between behavioral economics and digital psychology,
-                    diving deep into how human behavior shapes and is shaped by technology. This passion fuels my
-                    commitment to creating designs that not only captivate but also connect on a deeper level.
-                </li>
-            </ul>
-            <strong>Leadership That Inspires</strong>
-            <p style="margin-left: 2em;">
-                I’ve had the privilege of leading and mentoring teams of 5 to 30 talented individuals, fostering an
-                environment where creativity thrives. As a dynamic Scrum team member, I ensure alignment across
-                stakeholders while tracking team activities through DSU. My knack for energizing teams and turning
-                roadblocks into stepping stones is at the heart of my leadership style.
-            </p>
-
-            <strong>Why Me?</strong>
-            <p style="margin-left: 2em;">
-                I am a fast learner, a motivator, and a creator. I take pride in understanding complex challenges,
-                collaborating with teams, and delivering results that elevate businesses and delight users. From
-                coordinating product designs to crafting stunning UI solutions, I aim to push boundaries and redefine
-                the standard of what’s possible.
-            </p>
-
 
         </div>
-        <div class="jumbotron skills">
-            <h1>Skill Set</h1>
-            <ul>
-                <li style="--accent-color:#0B374D">
-                    <div class="icon"><i class="fa-regular fa-image"></i></div>
-                    <div class="title">Adobe C S</div>
-                    <div class="descr">18 years</div>
-                </li>
 
-                <li style="--accent-color:#1286A8">
-                    <div class="icon"><i class="fa-brands fa-html5"></i></div>
-                    <div class="title">HTML 5</div>
-                    <div class="descr">15 years</div>
-                </li>
-                <li style="--accent-color:#D2B53B">
-                    <div class="icon"><i class="fa-brands fa-css3"></i></div>
-                    <div class="title">CSS 3</div>
-                    <div class="descr">15 years</div>
-                </li>
-                <li style="--accent-color:#0B374D">
-                    <div class="icon"><i class="fa-brands fa-figma"></i></div>
-                    <div class="title">Figma</div>
-                    <div class="descr">5 years</div>
-                </li>
-                <li style="--accent-color:#563d7c">
-                    <div class="icon"><i class="fa-brands fa-bootstrap"></i></div>
-                    <div class="title">Bootstrap</div>
-                    <div class="descr">12 years</div>
-                </li>
-            </ul>
+
+        <!-- Bottom Footer -->
+
+        <div class="footer-bottom">
+
+            <p>© 2026 Ashwini Kumar | UX Portfolio</p>
+
         </div>
-        <div class="jumbotron skills">
-            <h1>Other Skill Set</h1>
-            <ul>
-                <li style="--accent-color:#DA611E">
-                    <div class="icon"><i class="fa-brands fa-js"></i></div>
-                    <div class="title">JS For Design</div>
-                    <div class="descr">5 years</div>
-                </li>
-                <li style="--accent-color:#DD0031">
-                    <div class="icon"><i class="fa-brands fa-angular"></i></div>
-                    <div class="title">Angular Design</div>
-                    <div class="descr">10 years</div>
-                </li>
-                <li style="--accent-color:#0077B5">
-                    <div class="icon"><i class="fa-brands fa-react"></i></div>
-                    <div class="title">React Design</div>
-                    <div class="descr">4 years</div>
-                </li>
-                <li style="--accent-color:#AC2A1A">
-                    <div class="icon"><i class="fa-brands fa-github"></i></div>
-                    <div class="title">Github</div>
-                    <div class="descr">7 years</div>
-                </li>
-                <li style="--accent-color:#FF4500">
-                    <div class="icon"><i class="fa-regular fa-user"></i></div>
-                    <div class="title">Prometheus Knowledge</div>
-                    <div class="descr">2 years</div>
-                </li>
-                <li style="--accent-color:#FFD700">
-                    <div class="icon"><i class="fa-regular fa-user"></i></div>
-                    <div class="title">Jenkins Knowledge</div>
-                    <div class="descr">3 years</div>
-                </li>
-                <li style="--accent-color:#FF6C37">
-                    <div class="icon"><i class="fa-regular fa-user"></i></div>
-                    <div class="title">Grafana Kibana Dashboard</div>
-                    <div class="descr">3 years</div>
-                </li>
-                <li style="--accent-color:#FF5733">
-                    <div class="icon"><i class="fa-brands fa-jira"></i></div>
-                    <div class="title">Jira Tracking and Ticketing</div>
-                    <div class="descr">5 years</div>
-                </li>
-                <li style="--accent-color:#1E90FF">
-                    <div class="icon"><i class="fa-brands fa-confluence"></i></div>
-                    <div class="title">Confluence</div>
-                    <div class="descr">2.6 years</div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <footer>
-        <!-- <p>Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar <span class="tex">The number of visitors is : <span id="cntr">0</span></span></p> -->
-        <p>Contact: ashwinikumar@hotmail.com | LinkedIn: linkedin.com/in/ashwinikumar | <span class="visitor">Visitor
-                Counter <span id="visitorCount" class="mr-2"><strong> 0</strong></span><span> Thanks you for
-                    visiting!</span></span></span></p>
+
     </footer>
-    <button onclick="topFunction()" id="myBtn" title="Go to top" class="shadow">Top</button>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
-    <script>
-        let mybutton = document.getElementById("myBtn");
-        window.onscroll = function () { scrollFunction() };
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
-        }
-
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-
-        /* Visitor Counter  Script Start*/
-        document.addEventListener('DOMContentLoaded', () => {
-            const counterElement = document.getElementById('visitorCount');
-            let count = localStorage.getItem('visitorCount');
-
-            if (count === null) {
-                count = 0;
-            }
-
-            count = parseInt(count) + 1;
-            localStorage.setItem('visitorCount', count);
-
-            counterElement.textContent = count;
-        });
-
-    </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
